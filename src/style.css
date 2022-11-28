@@ -5,7 +5,7 @@
 body {
   font-family: Inter;
   margin: 0;
-  background: #282D35;
+  background: #282d35;
 }
 
 nav {
@@ -20,7 +20,8 @@ nav {
   width: 60px;
 }
 
-.nav--logo_text, .nav--title {
+.nav--logo_text,
+.nav--title {
   margin: 0;
 }
 
@@ -40,6 +41,9 @@ nav {
 main {
   padding: 50px 25px;
   color: #fff;
+  background-image: url("./images/react-icon-large.png");
+  background-repeat: no-repeat;
+  background-position: right 75%;
 }
 
 .main--title {
@@ -54,6 +58,6 @@ main {
 }
 
 .main--facts > li::marker {
-  color: #61DAFB;
+  color: #61dafb;
   font-size: 1.5rem;
 }
