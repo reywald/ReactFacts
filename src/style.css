@@ -3,7 +3,9 @@
 }
 
 body {
+  font-family: Inter;
   margin: 0;
+  background: #282D35;
 }
 
 nav {
@@ -24,7 +26,6 @@ nav {
 
 .nav--logo_text {
   color: #61dafb;
-  font-family: Inter;
   font-weight: 700;
   font-size: 22px;
   margin-right: auto;
@@ -32,7 +33,22 @@ nav {
 
 .nav--title {
   color: #deebf8;
-  font-family: Inter;
   font-weight: 600;
   font-size: 16px;
+}
+
+main {
+  padding: 50px 25px;
+  color: #fff;
+}
+
+.main--title {
+  font-size: 40px;
+  letter-spacing: -0.05em;
+  margin: 0;
+}
+
+.main--facts > li {
+  padding-block: 10px;
+  max-width: 400px;
 }
